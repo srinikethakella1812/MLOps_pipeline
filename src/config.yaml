@@ -1,0 +1,13 @@
+data:
+  input: raw/housing.csv
+  target_column: median_house_value
+  test_size: 0.3
+  random_state: 42
+
+processed_data:
+  train: processed/train.csv
+  test: processed/test.csv
+
+output:
+  model: artifacts/linear_regression.joblib
+  metrics: artifacts/metrics.json
