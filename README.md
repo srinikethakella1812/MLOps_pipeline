@@ -1,4 +1,4 @@
-# California Housing Price Prediction
+# House Price Prediction
 
 A reproducible machine-learning project that predicts California home values
 with linear regression. It turns a notebook-based experiment into a modular,
